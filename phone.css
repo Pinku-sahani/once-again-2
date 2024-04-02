@@ -1,0 +1,131 @@
+/* to responsive using media queries phone devices */
+
+header{
+    height: 24vh;
+    width: 534px;
+}
+
+#ul-list{
+    height:24vh;
+    width: 534px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top:100px; */
+}
+#ul-list li{
+    margin:auto;
+}
+#firstcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:524px;
+    height:1488px;
+    border:3px solid black;
+}
+#firstimg {
+    height: 76vh;
+    width: 104vw;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#firstimg img{
+    height: 51vh;
+    width: 103vw;
+    margin:auto;
+    
+}
+
+#firstimg h1{
+    font-size:2.4rem;
+}
+#firstimg p{
+    font-size:1.3rem;
+}
+#secondimg {
+    height: 76vh;
+    width: 104vw;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#secondimg img{
+    height: 51vh;
+    width: 103vw;
+    margin:auto;
+    
+}
+
+#secondimg h1{
+    font-size:3rem;
+}
+#secondimg p{
+    font-size:1.3rem;
+}
+#firstcontainer button{
+    padding:18px;
+}
+
+/* second container */
+#secondcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:524px;
+    height:1488px;
+    border:3px solid black;
+}
+#thirdimg {
+    height: 76vh;
+    width: 104vw;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#thirdimg img{
+    height: 51vh;
+    width: 103vw;
+    margin:auto;
+    
+}
+
+#thirdimg h1{
+    font-size:2.4rem;
+}
+#thirdimg p{
+    font-size:1.3rem;
+}
+#fourthimg {
+    height: 76vh;
+    width: 104vw;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#fourthimg img{
+    height: 51vh;
+    width: 103vw;
+    margin:auto;
+    
+}
+
+#fourthimg h1{
+    font-size:3rem;
+}
+#fourthimg p{
+    font-size:1.3rem;
+}
+#secondcontainer button{
+    padding:18px;
+}

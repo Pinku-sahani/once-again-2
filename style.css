@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+header{
+    position: sticky;
+    top:0;
+    background-color: rgb(105, 105, 105);
+    color:white;
+}
+footer{
+    height:15vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ul-list{
+    
+    display: flex;
+    list-style-type: none;
+    
+    height:15vh;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item{
+    margin-left:120px;
+    font-size:1.8rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+.item:hover{
+    color:blue;
+ 
+}
+#firstcontainer{
+    margin-top:30px; 
+    display: flex;
+    justify-content: space-around;
+    height:100vh;
+    width:100vw;
+}
+#secondcontainer{
+    height:100vh;
+    width:100vw;
+    /* margin-top:15px;  */
+    display: flex;
+    justify-content: space-around;
+
+}
+#firstimg{
+    height: 80vh;
+    width: 50vw;
+    /* border: 2px solid yellow; */
+    margin-top:50px;
+}
+#thirdimg{
+    height: 80vh;
+    width: 50vw;
+    /* border: 2px solid yellow; */
+    margin-top:50px;
+}
+#firstimg img{
+   
+    margin-left:137px;
+    height:60vh;
+    width:30vw;       
+ }
+#thirdimg img{
+   
+    margin-left:137px;
+    height:60vh;
+    width:30vw;       
+ }
+
+#secondimg{
+    height: 80vh;
+    width: 50vw;
+    /* border: 2px solid yellow; */
+    margin-top:50px;
+}
+#fourthimg{
+    height: 80vh;
+    width: 50vw;
+    /* border: 2px solid yellow; */
+    margin-top:50px;
+}
+#secondimg img{
+   
+    margin-left:137px;
+    height:60vh;
+    width:30vw;
+    
+}
+#fourthimg img{
+   
+    margin-left:137px;
+    height:60vh;
+    width:30vw;
+    
+}
+/* #secondimg img h1{
+    text-align: center;
+}
+#secondimg img h1 p{
+    text-align: center; 
+} */
+#firstcontainer h1,p{
+    text-align: center;
+}
+#secondcontainer h1,p{
+    text-align: center;
+}
+.btn-1{
+    padding:10px;
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:auto;
+    display: block;
+    margin-top:12px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    border: none;
+    background-color: rgb(216, 214, 214);
+    border-radius: 7px;
+}
+.btn-1:hover{
+    background-color: blue;
+    color:white;
+
+}
+#footer{
+    height:10vh;
+    width:100vw;
+    font-size:1.3rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 105, 105);
+    color:white;
+    font-weight: 550;
+    border: none;
+}
+#footdata{
+    
+}
